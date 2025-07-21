@@ -1,0 +1,66 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  padding: 30px;
+}
+
+/* Container */
+.TODOO {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+/* Input */
+.input {
+  width: 70%;
+  padding: 12px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.submit {
+  padding: 12px 20px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit:hover {
+  background: #084cdf;
+}
+
+/* Task list */
+.task {
+  font-weight: bold;
+  color: #6c757d;
+  margin-top: 20px;
+}
+
+p[name="tasktitle"] {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+p[name="taskdate"] {
+  font-size: 14px;
+  color: #888;
+}
